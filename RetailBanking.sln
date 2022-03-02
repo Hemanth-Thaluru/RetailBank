@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication API", "Authentication API\Authentication API.csproj", "{3650D470-6171-42F4-BCB3-05A7F918F684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4E881159-74D7-425D-98F5-FABA27FD75AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailBank UI", "RetailBank UI\RetailBank UI.csproj", "{AEEB8582-9838-4249-BF2B-E26AC88EC841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3650D470-6171-42F4-BCB3-05A7F918F684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3650D470-6171-42F4-BCB3-05A7F918F684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3650D470-6171-42F4-BCB3-05A7F918F684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3650D470-6171-42F4-BCB3-05A7F918F684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEB8582-9838-4249-BF2B-E26AC88EC841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEB8582-9838-4249-BF2B-E26AC88EC841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEB8582-9838-4249-BF2B-E26AC88EC841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEB8582-9838-4249-BF2B-E26AC88EC841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3650D470-6171-42F4-BCB3-05A7F918F684} = {4E881159-74D7-425D-98F5-FABA27FD75AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E97CC2C0-0159-461B-8B7F-5869CC8D234B}
+	EndGlobalSection
+EndGlobal
